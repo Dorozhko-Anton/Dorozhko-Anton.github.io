@@ -99,7 +99,25 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+body { padding-top: 50px; }
+
+.container-fluid {
+  margin:0 auto;
+  max-width: 800px; /* or 950px */
+}
+
+nav.navbar {
+  max-width: 800px; /* applying max-width */
+  margin: 0 auto; /* center */
+  .navbar-collapse {
+      justify-content : center; /* center the elements in the block if there is flex */
+      -webkit-justify-content : center; /* make it works on some navigators */
+  }
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-//@import "highlights";
+// @import "highlights";
+//@import "nav";
 //@import "svg-icons";

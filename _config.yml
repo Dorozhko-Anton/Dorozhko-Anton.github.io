@@ -52,6 +52,17 @@ google_analytics: 'UA-145404852-1'
 # then add in the baseurl here, like this: "/repository-name"
 #baseurl: ""
 
+
+collections:
+
+  trackrecords:
+    output: true
+  
+  post:
+    output: true
+    permalink: /:collection/:name
+
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #

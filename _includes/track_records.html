@@ -1,0 +1,49 @@
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr>  
+  <h2>Research</h2>
+  </tr>
+        {% for trackrecord in site.trackrecords %}
+        {% for cat in trackrecord.categories %}
+        {% if cat == 'research' %}
+        <tr>
+          <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+            <img src="/tn{{trackrecord.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+          </td>
+          <td style="padding:2.5%;width:75%;vertical-align:middle">
+            <h3>{{trackrecord.title}}</h3>
+            <br>
+            {{trackrecord.authors}}
+
+            <br>
+            <em>{{trackrecord.venue}}</em>, {{ trackrecord.date | date: "%Y" }}
+            <br>
+            {% if trackrecord.arxiv %}
+            <a href="{{trackrecord.arxiv}}">arxiv</a> /
+            {% endif %}
+            {% if trackrecord.video %}
+            <a href="{{trackrecord.video}}">video</a> /
+            {% endif %}
+            {% if trackrecord.code %}
+            <a href="{{trackrecord.code}}">code</a> /
+            {% endif %}
+            {% if trackrecord.trackrecorder %}
+            <a href="{{trackrecord.poster}}">poster</a> /
+            {% endif %}
+            {% if trackrecord.slides %}
+            <a href="{{trackrecord.slides}}">slides</a> /
+            {% endif %}
+            <p></p>
+            {{ trackrecord.excerpt }}
+          </td>
+        </tr>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        <td>
+        <h2>Teaching</h2>
+        </td>
+        <td>
+            <h2>Projects</h2>
+            </td>
+        
+      </table>
