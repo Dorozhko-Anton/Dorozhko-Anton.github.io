@@ -1,0 +1,49 @@
+
+<div class="container">
+
+        <div class="row">
+                <h2>Projects</h2>
+        </div>
+
+
+       
+        
+        {% assign sorted = (site.projects  | sort: 'date') | reverse %}
+
+        {% for project in sorted %}
+        
+        
+        {% assign newrow = forloop.index | modulo:3 %}
+        {% if  newrow == 1 %}
+        <div class="row">
+        {% endif %}
+
+
+
+
+        <div class="col">
+        <div class="card" style="max-width: 200px;" >
+
+                <h5 class="card-header">{{project.name}}</h5>
+                
+                <div class="card-body">
+                        <img src="/tn{{project.image}}" class="card-img-top" alt="project image"  />
+                    <p class="card-text">{{ project.excerpt }}</p>
+                    <a href="{{project.project_site}}" class="btn btn-primary">Go to</a>
+                </div>
+                </div>
+        </div>
+        {% if  newrow == 0 %}
+        </div >
+        {% endif %}
+        
+    
+        {% endfor %}
+
+         
+        
+</div>
+
+
+
+        

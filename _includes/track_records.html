@@ -2,7 +2,9 @@
     <tr>  
   <h2>Research</h2>
   </tr>
-        {% for trackrecord in site.trackrecords %}
+        {% assign sorted = (site.trackrecords  | sort: 'date') | reverse %}
+        
+        {% for trackrecord in sorted %}
         {% for cat in trackrecord.categories %}
         {% if cat == 'research' %}
         <tr>
@@ -15,8 +17,11 @@
             {{trackrecord.authors}}
 
             <br>
-            <em>{{trackrecord.venue}}</em>, {{ trackrecord.date | date: "%Y" }}
+            <em>{{trackrecord.venue}}</em> ( {{ trackrecord.date | date: "%Y" }} )
             <br>
+            {% if trackrecord.draft %}
+            <a href="{{trackrecord.draft}}">draft</a> /
+            {% endif %}
             {% if trackrecord.arxiv %}
             <a href="{{trackrecord.arxiv}}">arxiv</a> /
             {% endif %}
@@ -39,11 +44,5 @@
         {% endif %}
         {% endfor %}
         {% endfor %}
-        <td>
-        <h2>Teaching</h2>
-        </td>
-        <td>
-            <h2>Projects</h2>
-            </td>
-        
+      
       </table>

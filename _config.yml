@@ -57,6 +57,12 @@ collections:
 
   trackrecords:
     output: true
+
+  courses:
+    output: true
+
+  projects:
+    output: true
   
   post:
     output: true
