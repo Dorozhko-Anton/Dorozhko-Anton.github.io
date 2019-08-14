@@ -3,7 +3,7 @@ layout: course
 course_code: "NSURL_101"
 title:  "Introduction to reinforcement learning"
 date:   2019-05-18 00:00:00 +00:00
-image: /images/404.jpg
+image: /images/nsu_rl_101.svg
 categories: university
 university: Novosibirsk State University 
 instructor: Anton Dorozhko

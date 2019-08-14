@@ -9,7 +9,7 @@
         {% if cat == 'research' %}
         <tr>
           <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-            <img src="/tn{{trackrecord.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+            <img src="/assets/tn{{trackrecord.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
           </td>
           <td style="padding:2.5%;width:75%;vertical-align:middle">
             <h3>{{trackrecord.title}}</h3>
@@ -36,6 +36,9 @@
             {% endif %}
             {% if trackrecord.slides %}
             <a href="{{trackrecord.slides}}">slides</a> /
+            {% endif %}
+            {% if trackrecord.slides %}
+            <a href="{{trackrecord.text}}">text</a>
             {% endif %}
             <p></p>
             {{ trackrecord.excerpt }}

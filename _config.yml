@@ -52,6 +52,7 @@ google_analytics: 'UA-145404852-1'
 # then add in the baseurl here, like this: "/repository-name"
 #baseurl: ""
 
+collections_dir: collections
 
 collections:
 
