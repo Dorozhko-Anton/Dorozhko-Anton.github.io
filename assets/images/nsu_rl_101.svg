@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -96,20 +96,25 @@
        id="path920" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:21.86517715px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.54662937"
-       x="2.0686617"
-       y="97.619698"
+       style="font-style:normal;font-weight:normal;font-size:25.97385597px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64934635"
+       x="4.9837542"
+       y="102.14957"
        id="text5213"
-       transform="scale(0.86626573,1.1543802)"><tspan
+       transform="scale(1.0290455,0.97177435)"><tspan
          sodipodi:role="line"
          id="tspan5211"
-         x="2.0686617"
-         y="97.619698"
-         style="stroke-width:0.54662937">Introduction to </tspan><tspan
+         x="4.9837542"
+         y="102.14957"
+         style="stroke-width:0.64934635">Introduction to </tspan><tspan
          sodipodi:role="line"
-         x="2.0686617"
-         y="124.95117"
-         style="stroke-width:0.54662937"
-         id="tspan5215">Reinforcemen Learning </tspan></text>
+         x="4.9837542"
+         y="134.61688"
+         style="stroke-width:0.64934635"
+         id="tspan5215">Reinforcement </tspan><tspan
+         sodipodi:role="line"
+         x="4.9837542"
+         y="167.08421"
+         style="stroke-width:0.64934635"
+         id="tspan833">Learning </tspan></text>
   </g>
 </svg>
