@@ -9,14 +9,18 @@ comments: true
   {% include nav.html %}
 <body>
 
-    <div class="container-fluid">
+    <div class="container" style="max-width: 800px">
+
        {{content}}
 
        <div class="row">
         {%include icons.html %}
         </div>
-        {% include footer.html %}
-  
+
+        <div class="row">
+            {% include footer.html %}
+        </div>
+        
     </div>
   </body>
 </html>
