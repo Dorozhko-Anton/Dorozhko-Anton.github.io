@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Neural Architecture Search"
-categories: #[blog, travel]
+categories: [blog, travel]
 tags: [research]
 # d3: True
 ---
