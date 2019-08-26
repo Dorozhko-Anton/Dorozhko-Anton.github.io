@@ -71,6 +71,11 @@ To make a simle demo accessible online without spending time on configuring aws 
 With user-friendly oneliner you can create  HTTP tunnel to your service or jupyter to make a demonstration of your POC
 
 
+# Conclusion
+
+In this post we covered the high level structure of maskrcnn_benchmark repository and gave the examples of how to use it.
+In the next posts we will examine the codebase of the model and explain the implemetation of different parts of detection and segmentation pipelines.
+
 If you tried this repo the first time don't hesitate to ask questions and leave a feedback if some steps were not clear.
 
 If you are already using maskrcnn_benchmark don't hesitate to ask general questions or about particular part. 
