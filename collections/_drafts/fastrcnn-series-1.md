@@ -39,9 +39,20 @@ we will look at all parameters closely in the consequent posts. [link to next po
 
 # Usage on premise 
 
-
+The repo provides Dockerfile to run a code with/without jupyter notebook. There is a good [install](https://github.com/facebookresearch/maskrcnn-benchmark/blob/master/INSTALL.md) instruction. It is quite straight forward to install on Linux, Windows users might encounter some problems and I refer them to the github issues.
 
 # Aws example
+
+Let's look how to install and run the demo code from the AWS instance. 
+
+To build docker repo we will need :
+1. `g2.2xlarge` or another instance with GPU support
+2. AMI with ubuntu and CUDA drivers installed
+3. `nvidia-docker` or `docker >= 19.03` installed that can give to your containers access to GPU 
+
+
+
+
 
 How to install manually
 
@@ -66,9 +77,19 @@ Some performance metrics table
 ## How to demonstrate your demo ?
 
 
-To make a simle demo accessible online without spending time on configuring aws or other instance and even without buying a domain name, in other workds without any additional configuration except your dev environment is [ngrok]()
+To make a simle demo accessible online without spending time and money on configuring aws or other instances and even without buying a domain name, in other workds without any additional configuration except your dev environment you can use [ngrok](https://dashboard.ngrok.com/get-started)
 
-With user-friendly oneliner you can create  HTTP tunnel to your service or jupyter to make a demonstration of your POC
+With user-friendly oneliner you can create  HTTP tunnel to your service or jupyter notebook to make a demonstration of your POC.
+
+1. Sign up on ngrok site 
+2. Download ngrok for you architecture
+3. Unzip to get an executable
+4. Connect to ngrok with `./ngrok authtoken ...`
+5. Use `./ngrok http PORT` 
+   
+P.S.:
+* don't forget to change a region to the closest to you with `--region `
+* you can also add `password` to secure your connection
 
 
 # Conclusion
@@ -79,7 +100,7 @@ In the next posts we will examine the codebase of the model and explain the impl
 If you tried this repo the first time don't hesitate to ask questions and leave a feedback if some steps were not clear.
 
 If you are already using maskrcnn_benchmark don't hesitate to ask general questions or about particular part. 
-In consequence episodes we will be able to go down to explain code even line by line if necessary.
+In the following episodes we will be able to go down to the details explaining code line by line if necessary.
 
 
 # Links
