@@ -52,6 +52,51 @@ To build docker repo we will need :
 
 
 
+# install docker 19
+
+
+```
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+sudo apt-get update
+
+sudo apt-get install docker-ce
+```
+To be abel to user docker in usermod add current user to the `docker` group and restart terminal or reconnect by ssh.
+
+```
+sudo usermod -aG docker ubuntu
+```
+
+
+
+```
+git clone https://github.com/facebookresearch/maskrcnn-benchmark
+cd maskrcnn-benchmark/
+```
+
+Following temporal inconsitency between `maskrcnn_benchmark` and `torchvision` we have to make some modifications to Dockerfile as mentioned in this [issue](https://github.com/facebookresearch/maskrcnn-benchmark/issues/1056) to install `torchvision v0.3.0` 
+
+We will build docker image with jupyter-notebook so modify `docker/docker-jupyter/Dockerfile` as in issue.
+
+
+```
+docker build -t maskrcnn-benchmark-jupyter docker/docker-jupyter/
+```
+
+That will take approximately `Xm Ys` 
+
+Run jupyter-notebook with docker container using
+```
+docker --gpus=all run -td -p 8888:8888 -e PASSWORD=<password> -v <host-dir>:<container-dir> maskrcnn-benchmark-jupyter
+```
+
+Open `demonotebook` ... 
+
+
 
 
 How to install manually
