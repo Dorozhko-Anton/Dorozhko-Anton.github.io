@@ -17,6 +17,8 @@ Main features:
 
 Let's consider one popular **T**erminal **Mu**lteple**x**er - `tmux`. 
 
+<!--more-->
+
 ## Installation
 
 `sudo apt-get install tmux`
@@ -40,28 +42,31 @@ Here are some basic functionalities:
 
 ## Panes
 
-C-b  + %   =  split left/right
-C-b  + "   =  split up / down
+`C-b`  + `%`   =  split left/right
 
-C-b + left/right  = go to prev/next pane
+`C-b`  + `"`  =  split up / down
 
-exit  or C-d  = close pane
+`C-b` + `left/right`  = go to prev/next pane
+
+`exit`  or `C-d`  = close pane
 
 ## Windows
 
-C-b c  = new window
+`C-b` + `c`  = new window
 
-C-b + p/n  = go to prev/next window
-C-b + <number> = go to window <number>
+`C-b` + `p/n`  = go to prev/next window
+
+`C-b` + `<number>` = go to window `<number>`
 
 ## Sessions
 
-C-b d   = detach session
+`C-b` + `d`   = detach session
 
-tmux ls  = list of sessions
-tmux attach -t 0  = attach to session 0
-tmux new -s database = create session named "database"
+`tmux ls`  = list of sessions
 
+`tmux attach -t 0`  = attach to session 0
+
+`tmux new -s database` = create session named "database"
 
 
 ## Mouse control

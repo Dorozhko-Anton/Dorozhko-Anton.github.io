@@ -1,44 +1,88 @@
 ---
 layout: post
-title:  "Oh my zsh minimal turorial"
+title:  "Oh my zsh minimal tutorial"
 categories: [blog, travel]
 tags: [hot, summer]
 d3: False
 ---
 
-https://ohmyz.sh/
+# Z shell 
 
-## installation
-1. install zsh
-1. install `curl` or `wget`
-1. `sudo apt-get install zsh`
+[Z shell](https://en.wikipedia.org/wiki/Z_shell) is an extended Bourne shell (Bash) that include many usefull features. 
 
+[Oh my Z shell](https://ohmyz.sh/) is a community-driven colleciton of themes and plugins for Zshell than facilitate the configuration and installation of new plugins and themes.
+
+As of June 2019, according to wiki it is a default shell for [macOS Catalina](https://en.wikipedia.org/wiki/MacOS_Catalina)
+
+<!--more-->
+
+## Installation
+
+1. install `zsh` [guide](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
+```
+sudo apt-get install zsh
+```
+
+2. install `curl` or `wget` and `git`
+3. Download omyzsh script
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-## why bother and common usages
+or 
+```
+sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+
+## Features
 
 ### clever cd / ls
 
-cd <TAB><TAB>
+`cd <TAB><TAB>`
 
 ### history (autocomplete , shared)
 
-ls <UP>
+`ls <UP>`
 
 ### kill (by command starting  letter)
 
+kill
+
 ### lookup params in man
-ls -<TAB>
+`ls -<TAB>`
+
+### inline globbing
+
+
 
 ### git
 
+
 ### edit long command CTRL + X + CTRL + E ??
 
-### THEMES
 
-## plugins ?
-github plugin, docker plugin, tmux plugin
-https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/tmux
+## THEMES
 
-plugin manager https://getantibody.github.io/
+## Plugins 
+
+`vi ~/.zshrc`
+
+```
+plugins=(
+  git
+  docker 
+  nmap
+)
+```
+
+
+## Usage optimized
+
+Here we will discuss some configurations and best practicise to foster usage of `zsh` and make it more transparent and easier
+
+
+## Links 
+
+1. github plugin, docker plugin, tmux plugin [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins)
+2. plugin manager [https://getantibody.github.io/](https://getantibody.github.io/)
+3. [awesome plugins](https://github.com/unixorn/awesome-zsh-plugins)
