@@ -22,4 +22,10 @@ This post will review the current SOTA (state of the art) of Neural Architecture
 
 ### DARTS
 
+### DARTS improvements (progressive, PC DARTS)
+
+### DARTS with different operations set
+
+### Application of DARTS to object detection
+
 ### EVOLUTIONARY 
