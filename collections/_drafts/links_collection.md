@@ -32,6 +32,13 @@ Personal webpages & blogs
 29. https://www.endtoend.ai/
 30. https://iprokin.github.io/CV.html
 31. https://simoninithomas.github.io/Deep_reinforcement_learning_Course/
+32. https://twitter.com/shakir_za/status/1042290297814876160
+33. http://arogozhnikov.github.io/about/
+34. https://cs.hse.ru/en/bayesgroup/people/novikov
+35. http://ksenia.konyushkova.com/
+36. https://jaehyunp.github.io/profile/
+37. https://lexie88rus.github.io/
+38. 
 
 
 Labs cites:
@@ -46,12 +53,23 @@ Labs cites:
 8. https://www.lip6.fr/?LANG=en
 9. https://thoth.inrialpes.fr/
 10. https://nlp.stanford.edu/
-11. https://alleninstitute.org/
+11. https://alleninstitute.org/  https://github.com/mpa139/allanlab
 12. [ ](https://www.sidewalklabs.com/)
 13. rudder.io
 14. https://cs.stanford.edu/~jure/bio.html
+15. http://www.lscp.net/persons/dupoux/
+16. https://martin-thoma.com/sota/
+17. https://cs.stanford.edu/~pliang/
+18.  http://acritch.com/cfar/
+19.  https://ai.google/education
+20.  http://uber.ai/
+21.  https://nnaisense.com/careers.html
+22.  https://carpedm20.github.io/
+23.  https://prairie-institute.fr/
 
 Demos:
+1. http://explorabl.es/
+2. 
 
 
 Other resources:
@@ -59,7 +77,8 @@ Other resources:
 
 Summer schools:
 1. EEML http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=83706&copyownerid=136317
-2. 
+2. PAISS https://project.inria.fr/paiss/
+3. 
 
 Residency programs:
 
@@ -69,4 +88,9 @@ New wave journals:
 1. distill.pub
 2. gradient.ai
 3. deeplearning.ai The batch
-4. 
+
+
+
+Projects:
+1. https://www.hse.ru/dataculture/
+2. 
