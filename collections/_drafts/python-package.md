@@ -31,7 +31,12 @@ What we need to make a good python library / project great.
 13. GIT WORKFLOW
 14. DOCKER 
 15. REQUIREMENTS / CONDA ENV ?
-16. 
+16. BLACK
+17. .pycache
+18. PyUp
+19. Coveralls
+20. PYLINT
+21. AUTOPEP8 
 
 # Project layout 
 
@@ -87,7 +92,7 @@ git flow hotfix start <release number>
 git flow hotfix finish <release number>
 ```
 
-# virtualenv 
+# virtualenv  and conda environments 
 
 ```
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.zshrc
@@ -98,7 +103,21 @@ deactivate
 
 workon ossproject
 pip freeze > requirements.txt
+```
 
+conda environments are better because they are compatible with virtualenv and have additional features 
+can manage non-python dependencies, don't use symlinks
+
+```
+conda create -n ossproject python=3.7 numpy
+```
+
+```
+ conda activate ossproject
+ ```
+
+```
+conda list --export > requirements.txt
 ```
 
 # Testing 
@@ -119,6 +138,11 @@ pip install pytest-cov
 
 py.test --cov=path/to/package --cov-report=term --cov-report=html
 ```
+
+python -m pytest
+python -m pytest --cov=. --cov-report=term --cov-report=html
+
+will add current directory to path
 
 
 ## nose 
@@ -141,10 +165,24 @@ commands=py.test  # or 'nosetests' or ...
 tox
 ```
 
+For more elaborated version of `tox` config go to [#link1]
+
+# Documentation `Sphinx`
+
+
+# Cheesecake 
+
+
+pip install cheesecake
+
+python cheesecake_index --name=Durus
+
+!read tutorial on PyPi.org https://packaging.python.org/
+
 
 
 Links:
 
 1. Open Sourcing a Python Project the Right Way https://jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/
 2. `Cookiecutter` Python package template https://github.com/audreyr/cookiecutter-pypackage
-3. 
+3. 10 Steps to Set Up Your Python Project for Success https://towardsdatascience.com/10-steps-to-set-up-your-python-project-for-success-14ff88b5d13
