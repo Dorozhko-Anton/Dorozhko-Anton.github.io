@@ -37,6 +37,9 @@ What we need to make a good python library / project great.
 19. Coveralls
 20. PYLINT
 21. AUTOPEP8 
+22. .pycache
+23. PyUp
+24. 
 
 # Project layout 
 
@@ -179,10 +182,34 @@ python cheesecake_index --name=Durus
 
 !read tutorial on PyPi.org https://packaging.python.org/
 
+```
+python setup.py sdist bdist_wheel
 
+python3 -m twine upload --repository-url https://test.pypi.org/legacy/ dist/* --verbose
+pip install -i https://test.pypi.org/simple/ adossproject==0.0.1
+```
+
+# Travis CI 
+
+is it best solution for github ??? alternatives : 
+
+*Continuous Integration* - process of continiously integrating all changes to a project. 
+
+push -> test 
+
+1. create account http://www.travis-ci.org/
+2. `.travis.yml`
+    1. project language
+    2. language version
+    3. install commands
+    4. run test commands
+3. 
 
 Links:
 
 1. Open Sourcing a Python Project the Right Way https://jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/
 2. `Cookiecutter` Python package template https://github.com/audreyr/cookiecutter-pypackage
 3. 10 Steps to Set Up Your Python Project for Success https://towardsdatascience.com/10-steps-to-set-up-your-python-project-for-success-14ff88b5d13
+4. `Cookiecutter` for other languages https://github.com/cookiecutter/cookiecutter
+5. Build Your First Oppen Source Python Project https://towardsdatascience.com/build-your-first-open-source-python-project-53471c9942a7
+6. 
