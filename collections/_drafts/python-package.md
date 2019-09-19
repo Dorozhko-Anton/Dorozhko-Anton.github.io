@@ -31,10 +31,10 @@ What we need to make a good python library / project great.
 13. GIT WORKFLOW
 14. DOCKER 
 15. REQUIREMENTS / CONDA ENV ?
-16. BLACK
+16. BLACK  https://www.mattlayman.com/blog/2018/python-code-black/
 17. .pycache
 18. PyUp
-19. Coveralls
+19. Coveralls https://coveralls.io/
 20. PYLINT
 21. AUTOPEP8 
 22. .pycache

@@ -66,6 +66,8 @@ Labs cites:
 21.  https://nnaisense.com/careers.html
 22.  https://carpedm20.github.io/
 23.  https://prairie-institute.fr/
+24.  https://www.nvidia.com/en-us/self-driving-cars/drive-labs/
+25.  
 
 Demos:
 1. http://explorabl.es/
