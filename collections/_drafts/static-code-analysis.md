@@ -93,7 +93,7 @@ Install `linter`  and `linter-cppcheck` in atom. Restart `atom` install necessar
 2. 
 
 
-
+cpplint
 
 ## CLANG ecosystem
 
