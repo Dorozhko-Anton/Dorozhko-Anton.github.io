@@ -38,7 +38,10 @@ Personal webpages & blogs
 35. http://ksenia.konyushkova.com/
 36. https://jaehyunp.github.io/profile/
 37. https://lexie88rus.github.io/
-38. 
+38. https://ai.stanford.edu/~danilevy/
+39. https://www.brains-explained.com/
+40. http://nondot.org/~sabre/
+41. 
 
 
 Labs cites:

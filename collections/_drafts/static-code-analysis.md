@@ -139,3 +139,5 @@ compiledb -n make
 # pre-commit hooks 
 
 https://github.com/pre-commit/demo-repo#readme
+https://github.com/Ericsson/codechecker
+https://github.com/mre/awesome-static-analysis#cc
