@@ -78,7 +78,7 @@ Demos:
 
 
 Other resources:
-
+https://github.com/hassony2/useful-computer-vision-phd-resources
 
 Summer schools:
 1. EEML http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=83706&copyownerid=136317
