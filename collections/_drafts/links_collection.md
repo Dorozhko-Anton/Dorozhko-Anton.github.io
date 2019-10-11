@@ -41,7 +41,9 @@ Personal webpages & blogs
 38. https://ai.stanford.edu/~danilevy/
 39. https://www.brains-explained.com/
 40. http://nondot.org/~sabre/
-41. 
+41. https://agadetsky.github.io/
+42. https://www.yan-holtz.com/
+43. 
 
 
 Labs cites:
@@ -79,6 +81,10 @@ Demos:
 
 Other resources:
 https://github.com/hassony2/useful-computer-vision-phd-resources
+https://pages.lip6.fr/Pascal.Poizat/blog/posts/2016/02/01/jekyll-and-bibtex/
+https://www.datasciencecentral.com/profiles/blogs/free-book-a-comprehensive-guide-to-machine-learning-berkeley?fbclid=IwAR1SL8EjsYrgbSh6eKJL99SPr58hmjFNsbqSMzJP0F3SaqLkNzbOCQVQsjI
+http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
+
 
 Summer schools:
 1. EEML http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=83706&copyownerid=136317
