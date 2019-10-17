@@ -43,7 +43,8 @@ Personal webpages & blogs
 40. http://nondot.org/~sabre/
 41. https://agadetsky.github.io/
 42. https://www.yan-holtz.com/
-43. 
+43. https://www.redblobgames.com/grids/hexagons/
+44. 
 
 
 Labs cites:
