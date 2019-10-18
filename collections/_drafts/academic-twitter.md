@@ -13,6 +13,10 @@ Academic twitter
 9. 
 
 
+# Virtual "Water cooler"
+
+
+
 # Conference support 
 
 Announcements 
@@ -30,3 +34,17 @@ Video
 # Twitter Lists 
 
 Twitter has a good tools to better organize your twitter feed 
+
+# Events ?
+
+# Finetune your TimeLine / Feed 
+
+use filters , settings and lists 
+
+# Threads 
+
+# Thread unroller app 
+
+
+
+List of 100 tips https://www.bestcollegesonline.com/blog/100-serious-twitter-tips-for-academics-2/
