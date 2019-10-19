@@ -7,6 +7,7 @@ tags: [engineering]
 ---
 
 What we need to make a good python library / project great. 
+<!--more-->
 
 1. CI
 2. static code analyse

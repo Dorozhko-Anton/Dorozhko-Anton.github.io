@@ -4,6 +4,7 @@ git flow init
 
 git flow feature start python_grpc
 
+<!--more-->
 
  pip install grpcio-tools
 

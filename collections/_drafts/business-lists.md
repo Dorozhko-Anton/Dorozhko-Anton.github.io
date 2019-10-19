@@ -14,6 +14,6 @@ Startup accelerators/incubators:
 Y combinator
 Y combinator startup school 
 
-
+<!--more-->
 Blogs:
 

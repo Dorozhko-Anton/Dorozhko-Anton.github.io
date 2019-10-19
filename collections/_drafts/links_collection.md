@@ -1,6 +1,8 @@
 
 Personal webpages & blogs 
 
+<!--more-->
+
 1. https://github.com/hassony2/useful-computer-vision-phd-resources
 2. https://pemami4911.github.io/
 3. http://chercheurs.lille.inria.fr/~ghavamza/my_website/About_Me.html

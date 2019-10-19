@@ -13,4 +13,6 @@ TODO: make as checkpoints
    2.  throw out 1 time per week in your district in Paris [link to compost places](tbd)
 2. sort garbage  Paris : recyclable / non-recyclable / glass / e-wastes
 3. electric / water / ...  smart counters ??
-4. 
+
+
+<!--more-->

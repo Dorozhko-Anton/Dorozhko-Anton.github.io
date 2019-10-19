@@ -4,3 +4,4 @@ https://www.reddit.com/r/MachineLearning/comments/9uaz3m/d_2019_ai_residency_thr
 
 https://medium.com/syncedreview/2019-ai-residency-guide-c9ba2b8f734
 
+<!--more-->

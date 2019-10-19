@@ -1,5 +1,5 @@
 Static code analysis
-
+<!--more-->
 # Python
 https://luminousmen.com/post/python-static-analysis-tools
 
