@@ -17,3 +17,4 @@ Y combinator startup school
 <!--more-->
 Blogs:
 
+https://phassive.com/0-to-10k-in-passive-income/?
