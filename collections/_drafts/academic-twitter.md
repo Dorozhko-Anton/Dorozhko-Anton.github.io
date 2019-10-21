@@ -25,6 +25,11 @@ d3: False
 
 <!--more-->
 
+<html>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Excited to share our work: collaboration requires understanding! In Overcooked, self-play doesn&#39;t gel with humans: it expects them to play like itself. (1/4)<br><br>Demo: <a href="https://t.co/CwmDVgzxLd">https://t.co/CwmDVgzxLd</a><br>Blog: <a href="https://t.co/B2AMWXKd49">https://t.co/B2AMWXKd49</a><br>Paper: <a href="https://t.co/WpCMaFIgwJ">https://t.co/WpCMaFIgwJ</a><br>Code: <a href="https://t.co/NF97r6AT6V">https://t.co/NF97r6AT6V</a> <a href="https://t.co/lqbzeTwoqr">pic.twitter.com/lqbzeTwoqr</a></p>&mdash; Rohin Shah (@rohinmshah) <a href="https://twitter.com/rohinmshah/status/1186326938693976064?ref_src=twsrc%5Etfw">October 21, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</html>
+
 # Use cases:
 
 ## Job posting / Internships  
