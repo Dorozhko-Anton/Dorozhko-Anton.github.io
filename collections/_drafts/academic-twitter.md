@@ -6,10 +6,21 @@ tags: [productivity, research]
 d3: False
 ---
 
+2 sentences introduction 
+
+![academic twitter](/assets/images/academic-twitter/academic_twitter.jpg)
 
 
+1 paragraph my relation to twitter and how I personally benefit from it
 
+1 paragraph about what will go next , some examples 
 
+And how to discover those examples 
+
+Don't worry if will not be able to find examples of some types of tweets in your feed right away.
+It might take some time.
+
+Don't forget to expand your "buble" from time to time.
 
 # How you and your lab or research group can use twitter
 
@@ -135,6 +146,8 @@ d3: False
 
 
 
+# AI starter list )) 
+
 # Virtual "Water cooler"
 
 
@@ -143,6 +156,18 @@ d3: False
 
 Announcements, some backchannel discussions
 Hashtags, retweets
+
+
+# Events ?
+
+
+
+
+(AI specific twitter events , twitter tools) -> 2 more 
+
+GOOD PRACTICIES FOR ACADEMIC TWITTER
+
+# Twitter deck
 
 # How to publish your paper 
 
@@ -156,16 +181,12 @@ Video
 
 Twitter has a good tools to better organize your twitter feed 
 
-# Events ?
 
 # Finetune your TimeLine / Feed 
 
 use filters , settings and lists 
 
-# Threads 
-
 # Thread unroller app 
-
 
 Some twitter post ideas 
 
