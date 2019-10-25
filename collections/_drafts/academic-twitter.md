@@ -6,12 +6,25 @@ tags: [productivity, research]
 d3: False
 ---
 
-2 sentences introduction 
+Our power is in our tools. Our creativity is mostly a combination of ideas that we absorb from our environment and our experience, and sometimes with a twist on top of it.
+
+But there is a small problem: the number of tools can be large, the number of tools/ideas that we even don't know can be even larger. 
+
+Normally we solve that somehow by chatting with people, using search engines, books, blogs, courses and so on. However this process can be faster.
+
+Twitter is a great microblogging platform in that sense.   
+
+
+
+In this blogpost we will consider some kinds of tweets that I find useful. 
 
 ![academic twitter](/assets/images/academic-twitter/academic_twitter.jpg)
 
 
 1 paragraph my relation to twitter and how I personally benefit from it
+
+
+
 
 1 paragraph about what will go next , some examples 
 
@@ -226,3 +239,8 @@ Even in 2009 there were a list of 100 professor using twitter http://www.associa
 And London School of Economics provides a guide `Using Twitter in university
 research, teaching and impact activities` from 2011  https://blogs.lse.ac.uk/impactofsocialsciences/2011/09/29/twitter-guide/ 
 
+25 Interesting Observations About How Academics Use Twitter
+https://www.getacclaim.com/blog/25-interesting-observations-about-how-academics-use-twitter/
+
+TWITTER IN THE UNIVERSITY: HOW USING TWITTER CAN BENEFIT STUDENTS AND EARLY CAREER RESEARCHERS
+https://blog.efpsa.org/2014/02/28/twitter-in-the-university-how-using-twitter-can-benefit-students-and-early-career-researchers/
