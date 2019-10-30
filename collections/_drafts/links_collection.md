@@ -28,7 +28,7 @@ Personal webpages & blogs
 23. http://yaroslav.ganin.net/
 24. https://cseweb.ucsd.edu/~mkchandraker/
 25. http://zacklipton.com/
-26. [ ](https://jonathan-schwarz.github.io/)
+26. https://jonathan-schwarz.github.io/
 27. https://francisbach.com/the-%ce%b7-trick-or-the-effectiveness-of-reweighted-least-squares/
 28. https://peterroelants.github.io/posts/gaussian-process-tutorial/
 29. https://www.endtoend.ai/
@@ -46,7 +46,7 @@ Personal webpages & blogs
 41. https://agadetsky.github.io/
 42. https://www.yan-holtz.com/
 43. https://www.redblobgames.com/grids/hexagons/
-44. 
+44. https://lilianweng.github.io/lil-log/contact.html
 
 
 Labs cites:

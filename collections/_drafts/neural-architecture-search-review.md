@@ -29,3 +29,8 @@ This post will review the current SOTA (state of the art) of Neural Architecture
 ### Application of DARTS to object detection
 
 ### EVOLUTIONARY 
+
+
+https://towardsdatascience.com/hierarchical-neural-architecture-search-aae6bbdc3624
+
+

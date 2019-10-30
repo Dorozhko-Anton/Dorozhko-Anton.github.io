@@ -65,3 +65,15 @@ https://www.getacclaim.com/blog/25-interesting-observations-about-how-academics-
 
 TWITTER IN THE UNIVERSITY: HOW USING TWITTER CAN BENEFIT STUDENTS AND EARLY CAREER RESEARCHERS
 https://blog.efpsa.org/2014/02/28/twitter-in-the-university-how-using-twitter-can-benefit-students-and-early-career-researchers/
+
+
+# Which time should I post a tweet 
+
+Answer from buffer : 
+
+# Frequency 
+
+
+# Length 
+
+https://buffer.com/resources/best-time-to-tweet-research
