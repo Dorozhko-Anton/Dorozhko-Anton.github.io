@@ -107,4 +107,10 @@ New wave journals:
 
 Projects:
 1. https://www.hse.ru/dataculture/
-2. 
+
+
+
+Growth:
+1. http://verbetcetera.com
+2. http://outtalent.com
+3. 
