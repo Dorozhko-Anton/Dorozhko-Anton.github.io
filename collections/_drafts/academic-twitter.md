@@ -3,6 +3,9 @@ layout: post
 title:  "Academic twitter"
 categories: [utils]
 tags: [productivity, research]
+image: "/assets/images/academic-twitter/twitter-bird-hat.svg"
+summary: "Academic Twitter's types of tweets"
+author: Anton
 d3: False
 ---
 
