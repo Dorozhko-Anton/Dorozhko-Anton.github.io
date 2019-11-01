@@ -3,7 +3,7 @@ layout: post
 title:  "Extract value from Academic twitter"
 categories: [utils]
 tags: [productivity, research]
-image: "/assets/images/academic-twitter/twitter-bird-hat.svg"
+image: "/assets/images/academic-twitter/twitter-bird-hat.png"
 summary: "With proper attitude and usage academic twitter can considerably broaden your perspective of the AI terrain."
 author: Anton
 d3: False
