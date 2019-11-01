@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Some handy types of AI academic twitter tweets"
+title:  "Extract value from Academic twitter"
 categories: [utils]
 tags: [productivity, research]
 image: "/assets/images/academic-twitter/twitter-bird-hat.svg"
