@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Academic twitter"
+title:  "Some handy types of AI academic twitter tweets"
 categories: [utils]
 tags: [productivity, research]
 image: "/assets/images/academic-twitter/twitter-bird-hat.svg"
-summary: "Academic Twitter's types of tweets"
+summary: "With proper attitude and usage academic twitter can considerably broaden your perspective of the AI terrain."
 author: Anton
 d3: False
 ---
