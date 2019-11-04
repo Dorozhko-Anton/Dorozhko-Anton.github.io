@@ -135,3 +135,48 @@ nav.navbar {
     margin: 0 auto;
     display: block;
 }
+
+
+// hugging face styles 
+
+.cover.cover-hmtl {
+background-image: radial-gradient(circle at 50% 0, #E56C3E 0, #F5BC3B 100%);
+}
+
+.cover.cover-standard {
+width: 230px;
+height: 320px;
+}
+
+.cover {
+background-color: turquoise;
+border-radius: 3px;
+box-shadow: 0 10px 25px 0 rgba(50,94,128,0.2);
+text-align: left;
+position: relative;
+}
+
+.cover .cover-inner {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 18px 26px;
+color: white;
+display: flex;
+flex-direction: column;
+}
+.cover .cover-inner .cover-title {
+font-size: 30px;
+line-height: initial;
+margin-bottom: 5px;
+}
+
+.text-center {
+text-align: center;
+}
+
+.cover .cover-inner .cover-bottom {
+margin-top: auto;
+}
