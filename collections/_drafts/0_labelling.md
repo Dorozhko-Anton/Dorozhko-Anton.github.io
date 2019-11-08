@@ -39,6 +39,25 @@ https://www.datasetlist.com/tools/
 
 https://www.researchgate.net/post/Can_anyone_suggest_an_image_labeling_tool_for_object_detection
 
+
+
+
+1. [LabelImg](https://github.com/tzutalin/labelImg)   python, Qt, PASCAL VOC, YOLO, bbox drag, modify, text, dropdown, some hotkeys
+2. labelme
+3. [CVAT](https://github.com/opencv/cvat) 
+4. Visal Object Tagging Tool
+5. makesense.ai
+6. Fast Image Data Annotation Tool
+7. PixelAnnotationTool
+8. COCO Annotator
+9. JS Segment annotator
+10. Scalabel 
+11. LOST
+12. [React Image Annotation](http://arianv.me/react-image-annotation/) - simple examples of drawing/dragging bbox, no hotkeys, class annotation by text  
+13. Image Tagger 
+14.   
+
+
 # Startups 
 
 ## [Scale](https://scale.com/) 
@@ -92,3 +111,12 @@ https://www.mturk.com/
 https://cloud.google.com/data-labeling/docs/
 
 DataTurks [https://dataturks.com/] 
+
+
+# Video
+
+Active Learning: Why Smart Labeling is the Future of Data Annotation | Alectio
+https://www.youtube.com/watch?v=V33Ut36eUsY
+
+Amit Beka: Annotating data the right way | PyData Amsterdam 2019
+https://www.youtube.com/watch?v=U8qS0ZpWp0I
