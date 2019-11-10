@@ -137,8 +137,23 @@ Manual Annotation tools https://en.wikipedia.org/wiki/List_of_manual_image_annot
     7.  Adding features doesn't save page state, long, can't use enter,
     8.  DATASET AND LABELS ARE CONNECTED (manual check, remake all steps for setup a project) (WHY NOT LOAD LABEL SCHEMA)
     9.  You cannot update the labels for a project after the project is created.
-    10. 
-21. d
+    10. http://jmlr.org/papers/volume20/18-859/18-859.pdf
+21. https://github.com/USCDataScience/supervising-ui
+    1.  only image labelling
+    2.  python, html, web
+    3.  
+22. https://annotorious.github.io/index.html
+    1.  js, jquery, web
+    2.  no hotkeys, no drag, no classes schemas
+    3.  
+23. https://alpslabel.wordpress.com/2017/01/26/alt/
+24. https://github.com/davisking/dlib/tree/master/tools/imglab
+25. https://pixorize.com/
+26. http://www.robots.ox.ac.uk/~vgg/software/via/
+27. https://wordpress.org/plugins/demon-image-annotation/
+28. https://github.com/christopher5106/FastAnnotationTool
+29. http://viper-toolkit.sourceforge.net/products/gt/
+30. l
 
 
 
@@ -207,11 +222,18 @@ aws, sagemaker,
 
 # Big providers 
 
-https://www.mturk.com/
-
-https://cloud.google.com/data-labeling/docs/
-
-DataTurks [https://dataturks.com/] 
+1. https://www.mturk.com/
+2. https://cloud.google.com/data-labeling/docs/
+3. DataTurks [https://dataturks.com/] 
+4. https://www.clickworker.com/about-us/
+5. https://www.upwork.com/
+6. https://mty.ai/
+7. https://www.linkedin.com/company/lqa/
+8. https://www.datapure.co/
+9. https://www.crowdflower.com/
+10. http://www.capestart.com/
+11.  https://dataloop.ai/solutions/data-annotation/
+12.  
 
 
 # Video
@@ -228,4 +250,31 @@ https://www.youtube.com/watch?v=U8qS0ZpWp0I
 1. annotation project
 2. how to scale 
 3. active learning 
-4. 
+
+
+
+https://medium.com/datadriveninvestor/5-strategic-steps-for-choosing-your-data-labeling-tool-b350910fc5eb
+
+Along the way, you and your data labeling team will find better ways to label training data for improved quality and model performance.
+
+6 months - model validation -> prod, maintenance
+
+
+1. Narrow your tooling choices based on your use case.
+2. Compare “build vs. buy” benefits.
+3. Consider your company size or stage.
+4. Don’t let your workforce choice lock you into a tool
+5. Factor in your data quality requirement
+6. 
+
+https://www.altexsoft.com/blog/datascience/how-to-organize-data-labeling-for-machine-learning-approaches-and-tools/?utm_source=MediumCom&utm_medium=referral
+How to Organize Data Labeling for Machine Learning: Approaches and Tools
+
+1. In-house labeling
+2. Crowdsourcing
+3. Outsourcing to individuals
+4. Synthetic labeling
+5. 
+
+
+https://www.snorkel.org/features/
