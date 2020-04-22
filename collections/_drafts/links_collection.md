@@ -48,7 +48,8 @@ Personal webpages & blogs
 43. https://www.redblobgames.com/grids/hexagons/
 44. https://lilianweng.github.io/lil-log/contact.html
 45. https://idlewords.com/talks/superintelligence.htm
-46. 
+46. https://alexhex7.github.io/2019/07/14/DARTS:Differentiable%20Architecture%20Search/
+47. 
 
 
 Labs cites:
