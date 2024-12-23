@@ -13,3 +13,21 @@ The website design is just a modification of [Jon Barron's website](https://jonb
 * I use thumbnails, so I can upload arbitrary sized images but then only display small ones. The `_make_thumbnails.sh` script generates them and the html template looks in `tn/` for all images. 
 * I have three categories of post with slightly differerent formatting, so changing sizing requires edits in multiple paces. 
 * If you use this, I'd appreciate a link back either to this repo or my personal website so others can find this too. 
+
+
+
+## Build site
+
+```bash
+sudo apt install ruby-dev
+sudo gem install bundler jekyll
+sudo bundle install
+bundle exec jekyll serve
+```
+
+
+
+## TODO:
+
+1. add google scholar page https://scholar.google.com/citations?user=3v2cyBcAAAAJ&hl=en ?
+2. 

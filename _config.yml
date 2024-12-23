@@ -35,6 +35,7 @@ google_analytics: 'UA-145404852-1'
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 #baseurl: ""
+font_awesome: 68b48cae3c.js
 
 collections_dir: collections
 

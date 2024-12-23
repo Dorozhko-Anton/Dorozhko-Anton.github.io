@@ -5,7 +5,7 @@ date:   2019-06-01 00:00:00 +00:00
 image: /images/ddpg.png
 categories: research
 author: "Anton Dorozhko"
-authors: "<strong>Anton Dorozhko</strong>, Evgeniy Pavlovskiy"
+authors: "<strong>Anton Dorozhko</strong>"
 venue: 
 arxiv: 
 slides: /assets/trackrecords/msc/slides.pdf
